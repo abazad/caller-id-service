@@ -1,0 +1,16 @@
+{
+  "name": "caller-id-api",
+  "version": "0.0.1",
+  "description": "A simple API to fetch caller id information and add new caller id data to the service using MongoDB.",
+  "author": "Justin Sherwood <justin@sherwood.fm>",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~4.0.0",
+    "node-env-file": "~0.1.7",
+    "body-parser": "~1.0.1",
+    "mongoose": "~4.1.6",
+    "csv": "~0.4.6"
+  },
+  "private": true,
+  "license": "Apache-2.0"
+}
